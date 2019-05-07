@@ -1,0 +1,35 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+.redirectorConfig{
+    height: 100%;
+    width: 100%;
+    background-color: $ms-color-themeLighterAlt;
+    position: relative;
+
+    .container{
+        position: absolute;
+        width: 75%;
+        top: 50%;        
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .title{
+            text-align: center;
+            font-size: 1.6rem;
+            color: $ms-color-themePrimary;
+        }
+
+        .desc{
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 1.5em;
+            color: $ms-color-themePrimary;
+
+            .urlStyle{
+                text-transform: lowercase;
+                text-decoration: unset;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.redirect {
+  @include ms-Grid-row;
+  
+  .container {
+    @include ms-Grid-col;
+    @include ms-lg12;
+    @include ms-md12;
+    width: 100vw;
+    height: 50vh;
+
+    div[class^='placeholder_']{
+      height: 100%;
+    }
+
+  }
+
+  
+}

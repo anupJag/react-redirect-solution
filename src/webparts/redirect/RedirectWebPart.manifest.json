@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0c332893-d16e-4204-9cfb-87ce26d8094b",
+  "alias": "RedirectWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Redirect" },
+    "description": { "default": "Configure your redirections, add 'redirectparam' key to query string with parameter" },
+    "officeFabricIconFontName": "Sync",
+    "properties": {
+      "duration": 5
+    }
+  }]
+}
